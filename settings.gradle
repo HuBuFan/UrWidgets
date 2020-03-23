@@ -1,0 +1,3 @@
+rootProject.name='UrWidgetSImple'
+include ':app'
+include ':library'
