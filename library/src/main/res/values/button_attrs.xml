@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <declare-styleable name="UrFloatActionButton">
-        <attr name="float_margin" format="dimension" />
-    </declare-styleable>
-</resources>

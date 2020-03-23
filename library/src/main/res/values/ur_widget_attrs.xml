@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    可悬浮拖动的按钮-->
+    <declare-styleable name="UrFloatActionButton">
+        <attr name="float_margin" format="dimension" />
+    </declare-styleable>
+
+    <!--    带删除图片的editText-->
+    <declare-styleable name="UrClearEditText">
+        <!--        输入内容时显示的字体大小-->
+        <attr name="textSizeDisplay" format="dimension" />
+        <!--        提示文字字体大小-->
+        <attr name="textSizeHint" format="dimension" />
+        <!--        是否开启自动空格-->
+        <attr name="isAutoSpace" format="boolean" />
+        <!--        是否显示删除图标-->
+        <attr name="isDisplayDeleteIcon" format="boolean" />
+        <!--        文本格式-->
+        <attr name="clearInputType" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="phone" value="1" />
+            <enum name="bank_card" value="2" />
+            <enum name="id_card" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>
